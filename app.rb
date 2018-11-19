@@ -39,9 +39,6 @@ class App < Sinatra::Base
     elsif operation == "divide"
       @solution = number1 / number2
       "#{@solution}"
-
-    # else
-    #   "Cannot be evaluated."
     end
   end
 end
