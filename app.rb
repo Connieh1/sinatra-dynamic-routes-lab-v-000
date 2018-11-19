@@ -41,9 +41,5 @@ class App < Sinatra::Base
     else
       "Cannot be evaluated."
     end
-      
-      
-
-    end
   end
 end
