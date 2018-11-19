@@ -30,17 +30,17 @@ class App < Sinatra::Base
     if operation == "add"
       @solution = number1 + number2
       "#{@solution}"
-    # elsif operation == "multiply"
-    #   @solution = number1 * number2
-    #   "#{@solution}"
-    # elsif operation == "divide"
-    #   @solution = number1 / number2
-    #   "#{@solution}"
-    # elsif operation == "subtract"
-    #   @solution = number1 - number2
-    #   "#{@solution}"
-    # else
-    #   "Cannot be evaluated."
+    elsif operation == "multiply"
+      @solution = number1 * number2
+      "#{@solution}"
+    elsif operation == "divide"
+      @solution = number1 / number2
+      "#{@solution}"
+    elsif operation == "subtract"
+      @solution = number1 - number2
+      "#{@solution}"
+    else
+      "Cannot be evaluated."
     end
   end
 end
